@@ -1,0 +1,35 @@
+{
+  "name": "client-workerpool",
+  "version": "1.0.0",
+  "description": "Client worker pool, used to establish communication between worker threads in a closed cluster pool, to load balance tasks running in the background (like encoding, compression).",
+  "directories": {
+    "test": "test"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/createvibe/client-workerpool.git"
+  },
+  "keywords": [
+    "worker",
+    "thread pool",
+    "worker pool",
+    "browser",
+    "threads",
+    "threaded",
+    "thread",
+    "client device",
+    "load balance"
+  ],
+  "author": {
+    "name": "Anthony Matarazzo",
+    "email": "email@anthonymatarazzo.com"
+  },
+  "peerDependencies": {},
+  "dependencies": {},
+  "devDependencies": {},
+  "readmeFilename": "README.md"
+}

@@ -1,0 +1,8 @@
+# ide / os
+.settings
+.project
+.DS_Store
+
+# node/npm
+node_modules
+npm-debug.log
