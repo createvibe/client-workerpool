@@ -25,7 +25,7 @@ The client device instantiates a `WorkerPool`, and specifies the number of threa
 /* index.js */
 
 // import the worker pool 
-import { WorkerPool } from 'client-workerpool';
+import { WorkerPool } from 'client-workerpool/lib/WorkerPool';
 
 // import your worker (this example uses the worker-loader for webpack)
 import MyWorker from 'worker-loader!./my-worker.js';
@@ -49,7 +49,7 @@ The worker uses the `ThreadPool` to register and provide business logic for comm
 /* my-worker.js */
 
 // import the thread pool class
-import { ThreadPool } from 'client-workerpool';
+import { ThreadPool } from 'client-workerpool/lib/ThreadPool';
 
 // create your thread pool instance, and pass the worker context to it (`self`)
 const thread = new ThreadPool(self);
