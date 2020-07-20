@@ -81,7 +81,7 @@ thread.registerCommand('doSomething', (threadId, arg, list) => {
 thread.registerCommand('doBackgroundStuff', (threadId, arg, list) => {
 
     const data = [];
-    const limit = Math.random() * 1000;
+    const limit = Math.random() * 1000000;
     for (let i = 0; i < limit; i++) {
         data.push(Math.random() * i);
     }
