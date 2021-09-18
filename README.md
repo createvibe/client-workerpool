@@ -21,7 +21,7 @@ The device uses the `WorkerPool` to communicate with background threads.  Each b
 
 The client device instantiates a `WorkerPool`, and specifies the number of threads to spawn. Using this object, the client device can communicate with workers in the `ThreadPool`.
 
-```
+```js
 /* index.js */
 
 // import the worker pool 
@@ -45,7 +45,7 @@ pool.sendCommand('doSomething', ['arg', 'list']).then(data => {
 
 The worker uses the `ThreadPool` to register and provide business logic for commands recieved from the device.
 
-```
+```js
 /* my-worker.js */
 
 // import the thread pool class
